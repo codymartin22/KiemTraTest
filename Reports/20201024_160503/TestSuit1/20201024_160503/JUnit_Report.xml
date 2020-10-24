@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuit1" time="17.034" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuit1" tests="2" failures="0" errors="0" time="17.034" timestamp="2020-10-24 16:05:10" hostname="ADMIN - DESKTOP-64853IL" id="Test Suites/TestSuit1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon\\TestCase\\Git\\KiemTraTest\\Reports\\20201024_160503\\TestSuit1\\20201024_160503"/>
+         <property name="logFiles" value="D:\\Katalon\\TestCase\\Git\\KiemTraTest\\Reports\\20201024_160503\\TestSuit1\\20201024_160503\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ADMIN - DESKTOP-64853IL"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.1.205"/>
+         <property name="browser" value="Chrome 86.0.4240.111"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="731b81614deaf292de4bc64b6c750b42"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_2" time="16.505" classname="Test Cases/TC_2" status="PASSED">
+         <system-out><![CDATA[2020-10-24 16:05:11 - [TEST_CASE][PASSED] - Test Cases/TC_2: Test Cases/TC_2
+
+2020-10-24 16:05:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-24 16:05:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-24 16:05:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-24 16:05:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-24 16:05:22 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://online.hcmue.edu.vn' successfully
+
+2020-10-24 16:05:23 - [MESSAGE][PASSED] - Navigate to 'http://online.hcmue.edu.vn' successfully
+
+2020-10-24 16:05:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Page_UP Portal  HoChiMinh University of Pedagogy/td_ng nhp")): Object: 'Object Repository/Record/Page_UP Portal  HoChiMinh University of Pedagogy/td_ng nhp' is clicked on
+
+2020-10-24 16:05:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Page_UP Portal  HoChiMinh University of Pedagogy/td_ng nhp' is clicked on
+
+2020-10-24 16:05:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Page_UP Portal  HoChiMinh University of Pedagogy/a_ng nhp")): Object: 'Object Repository/Record/Page_UP Portal  HoChiMinh University of Pedagogy/a_ng nhp' is clicked on
+
+2020-10-24 16:05:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Page_UP Portal  HoChiMinh University of Pedagogy/a_ng nhp' is clicked on
+
+2020-10-24 16:05:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Page_UP Portal  HoChiMinh University of Pedagogy/input_Tn ng nhp_ctl00ContentPlaceHolder1ctl_537cb7"), uName): Text '43.01.104.194' is set on object 'Object Repository/Record/Page_UP Portal  HoChiMinh University of Pedagogy/input_Tn ng nhp_ctl00ContentPlaceHolder1ctl_537cb7'
+
+2020-10-24 16:05:25 - [MESSAGE][PASSED] - Text '43.01.104.194' is set on object 'Object Repository/Record/Page_UP Portal  HoChiMinh University of Pedagogy/input_Tn ng nhp_ctl00ContentPlaceHolder1ctl_537cb7'
+
+2020-10-24 16:05:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Record/Page_UP Portal  HoChiMinh University of Pedagogy/input_Mt m_ctl00ContentPlaceHolder1ctl00ctl_4544f5"), uPass): Text ****** has been set on object 'Object Repository/Record/Page_UP Portal  HoChiMinh University of Pedagogy/input_Mt m_ctl00ContentPlaceHolder1ctl00ctl_4544f5'
+
+2020-10-24 16:05:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Record/Page_UP Portal  HoChiMinh University of Pedagogy/input_Mt m_ctl00ContentPlaceHolder1ctl00ctl_4544f5'
+
+2020-10-24 16:05:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Page_UP Portal  HoChiMinh University of Pedagogy/input_S lng truy cp _ctl00ContentPlaceHolde_c71575")): Object: 'Object Repository/Record/Page_UP Portal  HoChiMinh University of Pedagogy/input_S lng truy cp _ctl00ContentPlaceHolde_c71575' is clicked on
+
+2020-10-24 16:05:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Page_UP Portal  HoChiMinh University of Pedagogy/input_S lng truy cp _ctl00ContentPlaceHolde_c71575' is clicked on
+
+2020-10-24 16:05:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Record/Page_UP Portal  HoChiMinh University of Pedagogy/table_Nm hc                    Hc k        _c2560d"), 5): Object 'Object Repository/Record/Page_UP Portal  HoChiMinh University of Pedagogy/table_Nm hc                    Hc k        _c2560d' is present
+
+2020-10-24 16:05:27 - [MESSAGE][PASSED] - Object 'Object Repository/Record/Page_UP Portal  HoChiMinh University of Pedagogy/table_Nm hc                    Hc k        _c2560d' is present
+
+2020-10-24 16:05:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Record/Page_UP Portal  HoChiMinh University of Pedagogy/span_5,415,000"), "5,415,000"): Actual text and expected text of test object 'Object Repository/Record/Page_UP Portal  HoChiMinh University of Pedagogy/span_5,415,000' are matched.
+
+2020-10-24 16:05:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Record/Page_UP Portal  HoChiMinh University of Pedagogy/span_5,415,000' are matched.
+
+2020-10-24 16:05:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-24 16:05:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_1" time="0.007" classname="Test Cases/TC_1" status="PASSED">
+         <system-out><![CDATA[2020-10-24 16:05:28 - [TEST_CASE][PASSED] - Test Cases/TC_1: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-24 16:05:10 - [TEST_SUITE][INCOMPLETE] - TestSuit1: null]]></system-out>
+      <system-err><![CDATA[2020-10-24 16:05:10 - [TEST_SUITE][INCOMPLETE] - TestSuit1: null]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuit1,Chrome 86.0.4240.111,,,2020-10-24 16:16:41,2020-10-24 16:17:07,"25,917s",FAILED
+,,,,,,,
+Test Cases/TC_2,Chrome 86.0.4240.111,,,2020-10-24 16:16:41,2020-10-24 16:16:53,"12,074s",FAILED
+"openBrowser("""")",Chrome 86.0.4240.111,,,2020-10-24 16:16:41,2020-10-24 16:16:51,"9,770s",PASSED
+navigateToUrl(URL),Chrome 86.0.4240.111,,,2020-10-24 16:16:51,2020-10-24 16:16:53,"1,937s",FAILED
+,,,,,,,
+Test Cases/TC_1,Chrome 86.0.4240.111,,,2020-10-24 16:16:53,2020-10-24 16:17:07,"13,532s",PASSED
+"openBrowser("""")",Chrome 86.0.4240.111,,,2020-10-24 16:16:54,2020-10-24 16:16:59,"4,346s",PASSED
+"navigateToUrl(""online.hcmue.edu.vn"")",Chrome 86.0.4240.111,,,2020-10-24 16:16:59,2020-10-24 16:17:01,"2,285s",PASSED
+"click(findTestObject(""Object Repository/Record/Page_UP Portal  HoChiMinh University of Pedagogy/td_ng nhp""))",Chrome 86.0.4240.111,,,2020-10-24 16:17:01,2020-10-24 16:17:01,"0,457s",PASSED
+"click(findTestObject(""Object Repository/Record/Page_UP Portal  HoChiMinh University of Pedagogy/a_ng nhp""))",Chrome 86.0.4240.111,,,2020-10-24 16:17:01,2020-10-24 16:17:02,"0,566s",PASSED
+"setText(findTestObject(""Object Repository/Record/Page_UP Portal  HoChiMinh University of Pedagogy/input_Tn ng nhp_ctl00ContentPlaceHolder1ctl_537cb7""), ""43.01.104.194"")",Chrome 86.0.4240.111,,,2020-10-24 16:17:02,2020-10-24 16:17:03,"0,826s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Record/Page_UP Portal  HoChiMinh University of Pedagogy/input_Mt m_ctl00ContentPlaceHolder1ctl00ctl_4544f5""), ""H9dtcEBS5K4A9HlRbYRjNw=="")",Chrome 86.0.4240.111,,,2020-10-24 16:17:03,2020-10-24 16:17:03,"0,559s",PASSED
+"click(findTestObject(""Object Repository/Record/Page_UP Portal  HoChiMinh University of Pedagogy/input_S lng truy cp _ctl00ContentPlaceHolde_c71575""))",Chrome 86.0.4240.111,,,2020-10-24 16:17:03,2020-10-24 16:17:05,"1,532s",PASSED
+"waitForElementPresent(findTestObject(""Page_UP Portal  HoChiMinh University of Pedagogy/Page_UP Portal  HoChiMinh University of Pedagogy/td_Mt m truy cp khng chnh xc""), 5)",Chrome 86.0.4240.111,,,2020-10-24 16:17:05,2020-10-24 16:17:05,"0,371s",PASSED
+closeBrowser(),Chrome 86.0.4240.111,,,2020-10-24 16:17:05,2020-10-24 16:17:07,"1,469s",PASSED

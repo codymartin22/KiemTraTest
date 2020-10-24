@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b18a4ba5-1880-444e-9b62-b72f0b0b8c83</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('TestData')</defaultValue>
+      <description></description>
+      <id>c0289f54-8e72-4c32-9f0d-d023ad4bca65</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null)</defaultValue>
+      <description></description>
+      <id>67c17c14-f141-4c71-9896-cfecbd788f08</id>
+      <masked>false</masked>
+      <name>uname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null)</defaultValue>
+      <description></description>
+      <id>a77a296f-8a45-4276-a81e-811821170575</id>
+      <masked>false</masked>
+      <name>upass</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>ProfileTrue</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'43.01.104.194'</initValue>
+      <name>uName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'online.hcmue.edu.vn'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'DPF9T709ZZmYci6mCLzEfQ=='</initValue>
+      <name>uPass</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
